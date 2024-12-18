@@ -3,6 +3,7 @@
 #define STEP_PER_PRESS 10
 uint32_t SAMPLING_RATE = 1500;
 #define CLOCK_SPEED 72000000
+
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 void spin_motor_cw(void);
